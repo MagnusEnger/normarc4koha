@@ -1,0 +1,812 @@
+'tagfield','tagsubfield','name','repeatable','mandatory'
+'010','a','Nummer',0,0
+'015','a','Nummer',0,0
+'015','b','Kilde',0,0
+'019','a','Aldersgruppemerker for barnebøker.',0,0
+'019','d','Litterær form/genre.',0,0
+'019','e','Litteratur tilpasset visse brukergrupper.',0,0
+'019','f','Andre grupper.',0,0
+'020','a','ISBN',0,0
+'020','b','Innbindingsinformasjon',0,0
+'020','c','Leveringsbetingelser',0,0
+'020','g','Andre tilføyelser.',0,0
+'020','z','Feil ISBN.',0,0
+'022','a','Gyldig ISSN.(1.8A-1.8B1, 1.8C)',0,0
+'022','y','Ukorrekt ISSN',0,0
+'022','z','Kansellert ISSN.',0,0
+'024','a','Standardnummer',0,0
+'024','c','Leveringsbetingelser',0,0
+'024','g','Andre tilføyelser.',0,0
+'024','z','Feil standardnummer.',0,0
+'025','a','Nummer.',0,0
+'027','a','STRN.',0,0
+'027','z','Feil eller forkastet STRN.',0,0
+'028','a','Utgivernummer/edisjonsnummer eller forleggernummer.',0,0
+'028','b','Utgiver',0,0
+'030','a','Gyldig CODEN.',0,0
+'030','z','Ugyldig eller forkastet CODEN.',0,0
+'033','a','Dato for innspilling/opptak.',0,0
+'033','b','Kode for geografisk område.',0,0
+'033','a',,0,0
+'040','a','Katalogiseringskilde.',0,0
+'041','a','Språk i tekst/lydspor',0,0
+'041','b','Språk i sammendrag/undertekster',0,0
+'041','g','Språk i medfølgende materiale',0,0
+'041','h','Språk i originaldokument',0,0
+'043','a','Kode for produsentland.',0,0
+'045','a','År (f.eks. komposisjonsår). (R)',1,0
+'060','a','Klassifikasjonsnummer',0,0
+'060','z','Hovednummer',0,0
+'060','7','Del av dokumentet som klassifikasjonskoden gjelder.',0,0
+'074','a','Kode.',0,0
+'080','a','Klassifikasjonsnummer.',0,0
+'080','e','Oppslagsterm til emneregister',0,0
+'080','z','Nummerets karakter ',0,0
+'080','7','Del av dokumentet som klassifikasjonskoden gjelder.',0,0
+'082','a','Klassifikasjonsnummer.',0,0
+'082','e','Oppslagsterm til emneregister',0,0
+'082','x','Hjelpetabeller',0,0
+'082','z','Nummerets karakter',0,0
+'082','2','Klassifikasjonsutgave',0,0
+'082','7','Del av dokumentet som klassifikasjonskoden gjelder.',0,0
+'084','a','Klassifikasjonsnummer.',0,0
+'084','z','Nummerets karakter',0,0
+'084','7','Del av dokumentet som klassifikasjonskoden gjelder.',0,0
+'100','a','Navn.',0,0
+'100','b','Nummer.',0,0
+'100','c','Andre tilføyelser.',0,0
+'100','d','Årstall forbundet med navn.',0,0
+'100','e','Betegnelse for funksjon.',0,0
+'100','j','Nasjonalitet.',0,0
+'100','q','Mer fullstendig navneform.',0,0
+'100','w','Sorteringsdelfelt for delfelt $a.',0,0
+'100','8','Andre karakteristika forbundet med navn.',0,0
+'110','a','Navn.',0,0
+'110','b','Underavdeling.',0,0
+'110','c','Sted.',0,0
+'110','d','Dato.',0,0
+'110','e','Betegnelse for funksjon.',0,0
+'110','g','Diverse opplysninger.',0,0
+'110','n','Nummer.',0,0
+'110','q','Forklarende tilføyelse',0,0
+'110','w','Sorteringsdelfelt for delfelt $a.',0,0
+'111','a','Navn.  (24.7-.8)',0,0
+'111','c','Sted.',0,0
+'111','d','Dato.',0,0
+'111','g','Diverse opplysninger',0,0
+'111','n','Nummer .',0,0
+'111','q','Forklarende tilføyelse',0,0
+'111','w','Sorteringsdelfelt for delfelt $a',0,0
+'130','a','Standardtittel. (25)',0,0
+'130','b','Underordnet enhet.',0,0
+'130','d','Årstall.',0,0
+'130','f','Utgivelsesår.',0,0
+'130','h','Generell materialbetegnelse.',0,0
+'130','i','Serienummer, opusnummer, nummer fra verkfortegnelse.',0,0
+'130','k','Form.',0,0
+'130','l','Språk i dokumentet.',0,0
+'130','m','Besetning. (25.29)[Mus]',0,0
+'130','n','Nummer for del av verk',0,0
+'130','o','Arrangement. (25.31B2)[Mus]',0,0
+'130','p','Tittel for del av verk.',0,0
+'130','q','Forklarende tilføyelse',0,0
+'130','r','Toneart.  (25.31A5) [Mus]',0,0
+'130','s','Versjon.',0,0
+'130','w','Sorteringsdelfelt for delfelt $a.',0,0
+'210','a','Forkortet tittel',0,0
+'210','b','Forklarende tilføyelser.',0,0
+'222','a','Nøkkeltittel',0,0
+'222','b','Forklarende tilføyelser.',0,0
+'240','a','Tittel.',0,0
+'240','b','Annen tittelinformasjon.',0,0
+'240','d','Årstall.',0,0
+'240','f','Utgivelsesår. (25.31A6)<br>',0,0
+'240','g','Diverse opplysninger. (25.31A6)<br>',0,0
+'240','h','Generell materialbetegnelse.<br>',0,0
+'240','i','Serienummer, opusnummer, nummer fra tematisk verkfortegnelse.',0,0
+'240','k','Form.',0,0
+'240','l','Språk.',0,0
+'240','m','Besetning. (25.29)',0,0
+'240','n','Nummer for del av verk.',0,0
+'240','o','Arrangement for musikk.',0,0
+'240','p','Tittel for del av verk.',0,0
+'240','q','Forklarende tilføyelse.',0,0
+'240','r','Toneart.  (25.31A5) [Mus]',0,0
+'240','s','Versjon',0,0
+'240','w','Sorteringsdelfelt for delfelt $a.',0,0
+'245','a','Tittel.',0,0
+'245','b','Annen tittelinformasjon.',0,0
+'245','c','Ansvarsangivelse.',0,0
+'245','h','Generell materialbetegnelse',0,0
+'245','n','Nummer for del av verk.',0,0
+'245','p','Tittel for del av verk.',0,0
+'245','w','Sorteringsdelfelt for delfelt $a.',0,0
+'246','a','Parallelltittel.',0,0
+'246','b','Annen tittelinformasjon.',0,0
+'246','c','Ansvarsangivelse.',0,0
+'246','f','Dato-, bind- eller heftebetegnelse. [Per]',0,0
+'246','h','Generell materialbetegnelse.',0,0
+'246','n','Nummer for del av verk.',0,0
+'246','p','Tittel for del av verk.',0,0
+'246','w','Sorteringsdelfelt for delfelt $a.',0,0
+'250','a','Utgave, opplag etc.',0,0
+'250','b','Ansvarshavende.',0,0
+'254','a','Fysisk presentasjon',0,0
+'255','a','Opplysning om målestokk. (3.3B)',0,0
+'255','b','Opplysning om projeksjon. (3.3C)',0,0
+'255','c','Opplysning om koordinater. (3.3D1)',0,0
+'255','d','Opplysning om sone. (3.3D2)',0,0
+'255','e','Opplysning om ekvinoktium. (3.3D2)',0,0
+'256','a','Filkarakteristika.',0,0
+'260','a','Sted.  (R)',1,0
+'260','b','Navn på forlegger, distributør etc.',0,0
+'260','c','År.',0,0
+'260','e','Trykkested eller produksjonssted.',0,0
+'260','f','Trykkeriets eller produsentens navn.',0,0
+'260','g','Trykkeår eller produksjonsår.',0,0
+'263','a','Dato.',0,0
+'270','a','Adresse',0,0
+'270','b','By',0,0
+'270','d','Land',0,0
+'270','e','Postkode',0,0
+'270','i','Adressetype',0,0
+'270','k','Telefonnummer (R)',1,0
+'270','l','Telefaksnummer (R)',1,0
+'270','m','E-post adresse (R)',1,0
+'270','p','Kontaktperson (R)',1,0
+'270','z','Note',0,0
+'300','a','Omfang.',0,0
+'300','b','Illustrasjonsmateriale og andre fysiske detaljer.',0,0
+'300','c','Format.',0,0
+'300','e','Bilag.',0,0
+'306','a','Varighet (R)',1,0
+'310','a','Periodisitet.(R)',1,0
+'350','a','Pris. (R)',1,0
+'350','b','Fysisk beskrivelse.(R)',1,0
+'362','a','Numeriske og/eller alfabetiske og kronologiske betegnelser.(R)',1,0
+'440','a','Serietittel.(1.6B-1.6D)',0,0
+'440','c','Ansvarsangivelse. (1.6E)',0,0
+'440','n','Underseriens alfabetiske eller numeriske betegnelse.',0,0
+'440','p','Tittel for underserie.',0,0
+'440','v','Nummerering innen serien.',0,0
+'440','w','Sorteringsdelfelt for delfelt $a.',0,0
+'440','x','ISSN.',0,0
+'440','y','Nummerering i underserien.',0,0
+'490','a','Serietittel.',0,0
+'500','a','Notens tekst',0,0
+'501','a','Notens tekst',0,0
+'502','a','Notens tekst',0,0
+'503','a','Notens tekst',0,0
+'505','a','Notens tekst',0,0
+'508','a','Notens tekst',0,0
+'510','a','Notens tekst',0,0
+'511','a','Notens tekst',0,0
+'512','a','Notens tekst',0,0
+'516','a','Notens tekst',0,0
+'520','a','Notens tekst',0,0
+'521','a','Notens tekst',0,0
+'525','a','Notens tekst',0,0
+'530','a','Notens tekst',0,0
+'531','a','Notens tekst',0,0
+'532','a','Notens tekst',0,0
+'533','a','Notens tekst',0,0
+'538','a','Notens tekst',0,0
+'539','a','Notens tekst',0,0
+'546','a','Notens tekst',0,0
+'571','a','Notens tekst',0,0
+'572','a','Notens tekst',0,0
+'573','a','Notens tekst',0,0
+'574','a','Notens tekst',0,0
+'600','a','Navn.',0,0
+'600','b','Nummer.',0,0
+'600','c','Andre tilføyelser.',0,0
+'600','d','Årstall forbundet med navn.',0,0
+'600','i','Serienummer, opusnummer, nummer fra verkfortegnelse. (25.31A1-A4) [Mus]',0,0
+'600','j','Nasjonalitet.',0,0
+'600','m','Besetning.(25.29) [Mus]',0,0
+'600','n','Nummer for del av verk.',0,0
+'600','o','Arrangement.(25.31B2) [Mus]',0,0
+'600','p','Tittel for del av verk.',0,0
+'600','q','Mer fullstendig navneform.',0,0
+'600','r','Toneart. [Mus]',0,0
+'600','t','Tittel for dokument som er emne.',0,0
+'600','u','Sorteringsdelfelt for delfelt $t.',0,0
+'600','v','Form underavdeling.',0,0
+'600','w','Sorteringsdelfelt for delfelt $a.',0,0
+'600','x','Underavdeling. (R)',1,0
+'600','y','Kronologisk underavdeling. (R)',1,0
+'600','z','Geografisk underavdeling. (R)',0,0
+'600','0','Kvalifikator. (R)',0,0
+'600','1','Klassifikasjonskode.',0,0
+'600','2','Kilde for emneinnførselen.',0,0
+'600','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'600','8','Andre karakteristika forbundet med navn.',0,0
+'610','a','Navn.',0,0
+'610','b','Underavdeling.',0,0
+'610','c','Sted. (R)',1,0
+'610','d','Dato. (R)',1,0
+'610','g','Diverse opplysninger. (R)',1,0
+'610','i','Serienummer, opusnummer, nummer fra verkfortegnelse.',0,0
+'610','m','Besetning. [Mus]',0,0
+'610','n','Nummer.',0,0
+'610','o','Arrangement.[Mus]',0,0
+'610','q','Forklarende tilføyelse',0,0
+'610','r','Toneart.(25.31A5) [Mus]',0,0
+'610','t','Tittel for dokument som er emne.',0,0
+'610','u','Sorteringsdelfelt for delfelt $t.',0,0
+'610','v','Form underavdeling.',0,0
+'610','w','Sorteringsdelfelt for delfelt $a.',0,0
+'610','x','Underavdeling. (R)',1,0
+'610','y','Kronologisk underavdeling. (R)',1,0
+'610','z','Geografisk underavdeling. (R)',1,0
+'610','0','Kvalifikator. (R)',1,0
+'610','1','Klassifikasjonskode.',0,0
+'610','2','Kilde for emneinnførselen.',0,0
+'610','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'611','a','Navn. (24.7, 24.8)',0,0
+'611','c','Sted.',0,0
+'611','d','Dato.  (R)',1,0
+'611','g','Diverse opplysninger.',0,0
+'611','n','Nummer.',0,0
+'611','q','Forklarende tilføyelse',0,0
+'611','t','Tittel for dokument som er emne.',0,0
+'611','u','Sorteringsdelfelt for delfelt $t.',0,0
+'611','v','Form underavdeling.',0,0
+'611','w','Sorteringsdelfelt for delfelt $a.',0,0
+'611','x','Underavdeling.  (R)',1,0
+'611','y','Kronologisk underavdeling.',0,0
+'611','z','Geografisk underavdeling.',0,0
+'611','0','Kvalifikator.  (R)',1,0
+'611','1','Klassifikasjonskode.',0,0
+'611','2','Kilde for emneinnførselen.',0,0
+'611','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'630','a','Standardtittel. (25)',0,0
+'630','b','Underordnet enhet.',0,0
+'630','d','Årstall. (R)',1,0
+'630','f','Utgivelsesår.',0,0
+'630','i','Serienummer, opusnummer, nummer fra verkfortegnelse.',0,0
+'630','k','Form.',0,0
+'630','l','Språk i omtalt dokument.',0,0
+'630','m','Besetning. (25.29) [Mus]',0,0
+'630','n','Nummer for del av verk.',0,0
+'630','o','Arrangement. (25.31B2) [Mus]',0,0
+'630','p','Tittel for del av verk.',0,0
+'630','q','Forklarende tilføyelse',0,0
+'630','r','Toneart. (25.31A5) [Mus]',0,0
+'630','s','Versjon av omtalt dokument.',0,0
+'630','v','Form underavdeling.',0,0
+'630','w','Sorteringsdelfelt for delfelt $a.',0,0
+'630','x','Underavdeling. (R)',1,0
+'630','y','Kronologisk underavdeling. (R)',1,0
+'630','z','Geografisk underavdeling. (R)',1,0
+'630','0','Kvalifikator. (R)',1,0
+'630','1','Klassifikasjonskode.',1,0
+'630','2','Kilde for emneinnførselen.',0,0
+'630','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'640','a','Tittel.',0,0
+'640','n','Nummer for del av verk. (1.1B9, 12.1B3-4)',0,0
+'640','p','Tittel for del av verk.',0,0
+'640','v','Form underavdeling.',0,0
+'640','w','Sorteringsdelfelt for delfelt $a.',0,0
+'640','x','Underavdeling. (R)',1,0
+'640','y','Kronologisk underavdeling. (R)',1,0
+'640','z','Geografisk underavdeling. (R)',1,0
+'640','0','Kvalifikator. (R)',1,0
+'640','1','Klassifikasjonskode.',0,0
+'640','2','Kilde for emneinnførselen.',0,0
+'640','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'650','a','Emneord.',0,0
+'650','c','Aktive datoer',0,0
+'650','d','Sted.',0,0
+'650','q','Forklarende tilføyelser.',0,0
+'650','v','Form underavdeling.',0,0
+'650','w','Sorteringsdelfelt for delfelt $a.',0,0
+'650','x','Underavdeling. (R)',1,0
+'650','y','Kronologisk underavdeling. (R)',1,0
+'650','z','Geografisk underavdeling. (R)',1,0
+'650','0','Kvalifikator. (R)',1,0
+'650','1','Klassifikasjonskode.',0,0
+'650','2','Kilde for emneinnførselen.',0,0
+'650','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'650','9','Språk eller språkform',0,0
+'651','a','Stedsnavn eller område.',0,0
+'651','q','Forklarende tilføyelser.',0,0
+'651','v','Form underavdeling.',0,0
+'651','w','Sorteringsdelfelt for delfelt $a.',0,0
+'651','x','Underavdeling. (R)',1,0
+'651','y','Kronologisk underavdeling. (R)',1,0
+'651','z','Geografisk underavdeling. (R)',1,0
+'651','0','Kvalifikator. (R)',1,0
+'651','1','Klassifikasjonskode.',0,0
+'651','2','Kilde for emneinnførselen.',0,0
+'651','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'651','9','Språk eller språkform',0,0
+'652','a','Betegnelse for komposisjonstype.',0,0
+'652','w','Sorteringsdelfelt for delfelt $a.',0,0
+'652','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'652','9','Språk eller språkform',0,0
+'653','a','Fritt nøkkelord.',0,0
+'653','w','Sorteringsdelfelt for delfelt $a.',0,0
+'653','0','Kvalifikator. (R)',1,0
+'653','1','Klassifikasjonskode.',0,0
+'653','2','Kilde for emneinnførselen.',0,0
+'653','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'653','9','Språk eller språkform',0,0
+'655','a','Genre/form.',0,0
+'655','v','Form underavdeling.',0,0
+'655','w','Sorteringsdelfelt for delfelt $a.',0,0
+'655','x','Underavdeling. (R)',1,0
+'655','y','Kronologisk underavdeling. (R)',1,0
+'655','z','Geografisk underavdeling. (R)',1,0
+'655','0','Kvalifikator. (R)',1,0
+'655','1','Klassifikasjonskode.',0,0
+'655','2','Kilde for emneinnførselen.',0,0
+'655','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'655','9','Språk eller språkform',0,0
+'656','a','Emneord.',0,0
+'656','v','Form underavdeling.',0,0
+'656','x','Underavdeling. (R)',1,0
+'656','y','Kronologisk underavdeling. (R)',1,0
+'656','z','Geografisk underavdeling. (R)',1,0
+'656','0','Kvalifikator. (R)',1,0
+'656','1','Klassifikasjonskode.',0,0
+'656','2','Kilde for emneinnførselen.',0,0
+'656','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'656','9','Språk eller språkform',0,0
+'658','a','Betegnelse for besetning. (R)',1,0
+'658','b','Totalt antall instrumenter.',0,0
+'658','w','Sorteringsdelfelt for delfelt $a.',0,0
+'658','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'658','9','Språk eller språkform',0,0
+'700','a','Navn.',0,0
+'700','b','Nummer.',0,0
+'700','c','Andre tilføyelser.',0,0
+'700','d','Årstall forbundet med navn.',0,0
+'700','e','Betegnelse for funksjon.',0,0
+'700','h','Materialebetegnelse',0,0
+'700','i','Serienummer, opusnummer, nummer fra verkfortegnelse.',0,0
+'700','j','Nasjonalitet.',0,0
+'700','k','Form',0,0
+'700','l','Språk',0,0
+'700','m','Besetning.(25.29) [Mus]',0,0
+'700','n','Nummer for del av verk.',0,0
+'700','o','Arrangement.(25.31B2) [Mus]',0,0
+'700','p','Tittel for del av verk.',0,0
+'700','q','Mer fullstendig navneform.',0,0
+'700','r','Toneart. [Mus]',0,0
+'700','t','Tittel i biinnførselen.',0,0
+'700','u','Sorteringsdelfelt for delfelt $t.',0,0
+'700','w','Sorteringsdelfelt for delfelt $a.',0,0
+'700','7','Del av dokumentet som emneinnførselen gjelder.',0,0
+'700','8','Andre karakteristika forbundet med navn.',0,0
+'710','a','Navn.',0,0
+'710','b','Underavdeling',0,0
+'710','c','Sted.',0,0
+'710','d','Dato.',0,0
+'710','e','Betegnelse for funksjon.',0,0
+'710','g','Diverse opplysninger.',0,0
+'710','h','Materialebetegnelse',0,0
+'710','i','Serienummer, opusnummer, nummer fra verkfortegnelse.',0,0
+'710','l','Språk',0,0
+'710','m','Besetning.[Mus]',0,0
+'710','n','Nummer',0,0
+'710','o','Arrangement.[Mus]',0,0
+'710','q','Forklarende tilføyelse ',0,0
+'710','r','Toneart.(25.31A5) [Mus]',0,0
+'710','t','Tittel i biinnførselen.',0,0
+'710','u','Sorteringsdelfelt for delfelt $t.',0,0
+'710','w','Sorteringsdelfelt for delfelt $a.',0,0
+'710','7','Del av dokumentet som biinnførselen gjelder.',0,0
+'711','a','Navn. (24.7, 24.8)',0,0
+'711','c','Sted.',0,0
+'711','d','Dato.',0,0
+'711','g','Diverse opplysninger.',0,0
+'711','h','Materialebetegnelse',0,0
+'711','l','Språk',0,0
+'711','n','Nummer',0,0
+'711','q','Forklarende tilføyelse',0,0
+'711','t','Tittel i biinnførselen.',0,0
+'711','u','Sorteringsdelfelt for delfelt $t.',0,0
+'711','w','Sorteringsdelfelt for delfelt $a.',0,0
+'711','7','Del av dokumentet som biinnførselen gjelder.',0,0
+'730','a','Standardtittel. (25)',0,0
+'730','b','Underordnet enhet',0,0
+'730','d','Årstall',0,0
+'730','f','Utgivelsesår.',0,0
+'730','h','Materialebetegnelse',0,0
+'730','i','Serienummer, opusnummer, nummer fra verkfortegnelse.',0,0
+'730','k','Form',0,0
+'730','l','Språk',0,0
+'730','m','Besetning(25.29) [Mus]',0,0
+'730','n','Nummer for del av verk.',0,0
+'730','o','Arrangement. (25.31B2) [Mus]',0,0
+'730','p','Tittel for del av verk',0,0
+'730','q','Forklarende tilføyelse',0,0
+'730','r','Toneart [Mus]',0,0
+'730','s','Versjon. (25.18A11)',0,0
+'730','t','Tittel i biinnførselen.',0,0
+'730','u','Sorteringsdelfelt for delfelt $t.',0,0
+'730','w','Sorteringsdelfelt for delfelt $a.',0,0
+'730','7','Del av dokumentet som biinnførselen gjelder.',0,0
+'740','a','Tittel.(21.30J)',0,0
+'740','e','Type tittel.',0,0
+'740','h','Materialbetegnelse.',0,0
+'740','n','Nummer for del av verk.',0,0
+'740','p','Tittel for del av verk.',0,0
+'740','w','Sorteringsdelfelt for delfelt $a.',0,0
+'740','7','Del av dokumentet som biinnførselen gjelder.',0,0
+'752','a','Land.',0,0
+'752','b','Delstat eller fylke.',0,0
+'752','c','Kommune.',0,0
+'752','d','By, tettsted etc.',0,0
+'753','a','Datamaskinfabrikat og -modell',0,0
+'753','b','Programmeringsspråk',0,0
+'753','c','Operativsystem',0,0
+'760','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'760','b','Utgave.',0,0
+'760','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'760','e','Språkkode.',0,0
+'760','f','Landekode.',0,0
+'760','g','Relasjonsopplysninger. (R)',1,0
+'760','h','Materialbetegnelse.',0,0
+'760','i','Årstall i "ren" form. (R)',1,0
+'760','k','Serie. (R)',1,0
+'760','s','Standardtittel',0,0
+'760','t','Tittel',0,0
+'760','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'760','x','ISSN',0,0
+'760','y','CODEN',0,0
+'760','z','ISBN',0,0
+'760','7','Type hovedordningsord i delfelt $a',0,0
+'762','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'762','b','Utgave.',0,0
+'762','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'762','e','Språkkode.',0,0
+'762','f','Landekode.',0,0
+'762','g','Relasjonsopplysninger. (R)',1,0
+'762','h','Materialbetegnelse.',0,0
+'762','i','Årstall i "ren" form. (R)',1,0
+'762','k','Serie. (R)',1,0
+'762','s','Standardtittel',0,0
+'762','t','Tittel',0,0
+'762','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'762','x','ISSN',0,0
+'762','y','CODEN',0,0
+'762','z','ISBN',0,0
+'762','7','Type hovedordningsord i delfelt $a',0,0
+'765','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'765','b','Utgave.',0,0
+'765','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'765','e','Språkkode.',0,0
+'765','f','Landekode.',0,0
+'765','g','Relasjonsopplysninger. (R)',1,0
+'765','h','Materialbetegnelse.',0,0
+'765','i','Årstall i "ren" form. (R)',1,0
+'765','k','Serie. (R)',1,0
+'765','s','Standardtittel',0,0
+'765','t','Tittel',0,0
+'765','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'765','x','ISSN',0,0
+'765','y','CODEN',0,0
+'765','z','ISBN',0,0
+'765','7','Type hovedordningsord i delfelt $a',0,0
+'767','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'767','b','Utgave.',0,0
+'767','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'767','e','Språkkode.',0,0
+'767','f','Landekode.',0,0
+'767','g','Relasjonsopplysninger. (R)',1,0
+'767','h','Materialbetegnelse.',0,0
+'767','i','Årstall i "ren" form. (R)',1,0
+'767','k','Serie. (R)',1,0
+'767','s','Standardtittel',0,0
+'767','t','Tittel',0,0
+'767','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'767','x','ISSN',0,0
+'767','y','CODEN',0,0
+'767','z','ISBN',0,0
+'767','7','Type hovedordningsord i delfelt $a',0,0
+'770','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'770','b','Utgave.',0,0
+'770','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'770','e','Språkkode.',0,0
+'770','f','Landekode.',0,0
+'770','g','Relasjonsopplysninger. (R)',1,0
+'770','h','Materialbetegnelse.',0,0
+'770','i','Årstall i "ren" form. (R)',1,0
+'770','k','Serie. (R)',1,0
+'770','s','Standardtittel',0,0
+'770','t','Tittel',0,0
+'770','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'770','x','ISSN',0,0
+'770','y','CODEN',0,0
+'770','z','ISBN',0,0
+'770','7','Type hovedordningsord i delfelt $a',0,0
+'772','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'772','b','Utgave.',0,0
+'772','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'772','e','Språkkode.',0,0
+'772','f','Landekode.',0,0
+'772','g','Relasjonsopplysninger. (R)',1,0
+'772','h','Materialbetegnelse.',0,0
+'772','i','Årstall i "ren" form. (R)',1,0
+'772','k','Serie. (R)',1,0
+'772','s','Standardtittel',0,0
+'772','t','Tittel',0,0
+'772','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'772','x','ISSN',0,0
+'772','y','CODEN',0,0
+'772','z','ISBN',0,0
+'772','7','Type hovedordningsord i delfelt $a',0,0
+'773','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'773','b','Utgave.',0,0
+'773','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'773','e','Språkkode.',0,0
+'773','f','Landekode.',0,0
+'773','g','Relasjonsopplysninger. (R)',1,0
+'773','h','Materialbetegnelse.',0,0
+'773','i','Årstall i "ren" form. (R)',1,0
+'773','k','Serie. (R)',1,0
+'773','s','Standardtittel',0,0
+'773','t','Tittel',0,0
+'773','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'773','x','ISSN',0,0
+'773','y','CODEN',0,0
+'773','z','ISBN',0,0
+'773','7','Type hovedordningsord i delfelt $a',0,0
+'775','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'775','b','Utgave.',0,0
+'775','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'775','e','Språkkode.',0,0
+'775','f','Landekode.',0,0
+'775','g','Relasjonsopplysninger. (R)',1,0
+'775','h','Materialbetegnelse.',0,0
+'775','i','Årstall i "ren" form. (R)',1,0
+'775','k','Serie. (R)',1,0
+'775','s','Standardtittel',0,0
+'775','t','Tittel',0,0
+'775','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'775','x','ISSN',0,0
+'775','y','CODEN',0,0
+'775','z','ISBN',0,0
+'775','7','Type hovedordningsord i delfelt $a',0,0
+'776','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'776','b','Utgave.',0,0
+'776','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'776','e','Språkkode.',0,0
+'776','f','Landekode.',0,0
+'776','g','Relasjonsopplysninger. (R)',1,0
+'776','h','Materialbetegnelse.',0,0
+'776','i','Årstall i "ren" form. (R)',1,0
+'776','k','Serie. (R)',1,0
+'776','s','Standardtittel',0,0
+'776','t','Tittel',0,0
+'776','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'776','x','ISSN',0,0
+'776','y','CODEN',0,0
+'776','z','ISBN',0,0
+'776','7','Type hovedordningsord i delfelt $a',0,0
+'777','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'777','b','Utgave.',0,0
+'777','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'777','e','Språkkode.',0,0
+'777','f','Landekode.',0,0
+'777','g','Relasjonsopplysninger. (R)',1,0
+'777','h','Materialbetegnelse.',0,0
+'777','i','Årstall i "ren" form. (R)',1,0
+'777','k','Serie. (R)',1,0
+'777','s','Standardtittel',0,0
+'777','t','Tittel',0,0
+'777','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'777','x','ISSN',0,0
+'777','y','CODEN',0,0
+'777','z','ISBN',0,0
+'777','7','Type hovedordningsord i delfelt $a',0,0
+'780','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'780','b','Utgave.',0,0
+'780','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'780','e','Språkkode.',0,0
+'780','f','Landekode.',0,0
+'780','g','Relasjonsopplysninger. (R)',1,0
+'780','h','Materialbetegnelse.',0,0
+'780','i','Årstall i "ren" form. (R)',1,0
+'780','k','Serie. (R)',1,0
+'780','s','Standardtittel',0,0
+'780','t','Tittel',0,0
+'780','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'780','x','ISSN',0,0
+'780','y','CODEN',0,0
+'780','z','ISBN',0,0
+'780','7','Type hovedordningsord i delfelt $a',0,0
+'785','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'785','b','Utgave.',0,0
+'785','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'785','e','Språkkode.',0,0
+'785','f','Landekode.',0,0
+'785','g','Relasjonsopplysninger. (R)',1,0
+'785','h','Materialbetegnelse.',0,0
+'785','i','Årstall i "ren" form. (R)',1,0
+'785','k','Serie. (R)',1,0
+'785','s','Standardtittel',0,0
+'785','t','Tittel',0,0
+'785','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'785','x','ISSN',0,0
+'785','y','CODEN',0,0
+'785','z','ISBN',0,0
+'785','7','Type hovedordningsord i delfelt $a',0,0
+'787','a','Hovedordningsord for posten det lenkes til, hvis dette er et personnavn, korporasjonsnavn eller en standardtittel.',0,0
+'787','b','Utgave.',0,0
+'787','d','Sted, forlag og dato (år) for utgivelse.',0,0
+'787','e','Språkkode.',0,0
+'787','f','Landekode.',0,0
+'787','g','Relasjonsopplysninger. (R)',1,0
+'787','h','Materialbetegnelse.',0,0
+'787','i','Årstall i "ren" form. (R)',1,0
+'787','k','Serie. (R)',1,0
+'787','s','Standardtittel',0,0
+'787','t','Tittel',0,0
+'787','w','Lokalt systems identifikasjonsnummer. (R)',1,0
+'787','x','ISSN',0,0
+'787','y','CODEN',0,0
+'787','z','ISBN',0,0
+'787','7','Type hovedordningsord i delfelt $a',0,0
+'800','a','Navn.',0,0
+'800','b','Nummer.',0,0
+'800','c','Andre tilføyelser.',0,0
+'800','d','Årstall forbundet med navn.',0,0
+'800','j','Nasjonalitet.',0,0
+'800','l','Språk',0,0
+'800','q','Mer fullstendig navneform.',0,0
+'800','t','Tittel for serien.',0,0
+'800','u','Sorteringsdelfelt for delfelt $t.',0,0
+'800','v','Bind, nummer etc.',0,0
+'800','w','Sorteringsdelfelt for delfelt $a.',0,0
+'800','x','ISSN.',0,0
+'800','8','Andre karakteristika forbundet med navn.',0,0
+'810','a','Navn.',0,0
+'810','b','Underavdeling.',0,0
+'810','c','Sted.',0,0
+'810','d','Dato.',0,0
+'810','g','Diverse opplysninger',0,0
+'810','l','Språk',0,0
+'810','n','Nummer for konferanse.',0,0
+'810','q','Forklarende tilføyelse.',0,0
+'810','t','Tittel for serien',0,0
+'810','u','Sorteringsdelfelt for delfelt $t.',0,0
+'810','v','Bind, nummer etc.',0,0
+'810','w','Sorteringsdelfelt for delfelt $a.',0,0
+'810','x','ISSN.',0,0
+'811','a','Navn. (24.7-.8)',0,0
+'811','c','Sted.',0,0
+'811','d','Dato.',0,0
+'811','g','Diverse opplysninger',0,0
+'811','l','Språk',0,0
+'811','n','Nummer for konferanse, utstilling, møte etc.',0,0
+'811','q','Forklarende tilføyelse.',0,0
+'811','t','Tittel for serien',0,0
+'811','u','Sorteringsdelfelt for delfelt $t.',0,0
+'811','v','Bind, nummer etc.',0,0
+'811','w','Sorteringsdelfelt for delfelt $a.',0,0
+'811','x','ISSN.',0,0
+'830','a','Standardisert tittel.',0,0
+'830','b','Underordnet enhet.',0,0
+'830','d','Årstall.',0,0
+'830','f','Utgivelsesåret for verket som katalogiseres.',0,0
+'830','i','Serienummer, opusnummer, nummer fra verkfortegnelse. [Mus]',0,0
+'830','k','Form.',0,0
+'830','l','Språk i dokumentet.',0,0
+'830','m','Besetning. [Mus]',0,0
+'830','n','Nummer for del av verk.',0,0
+'830','o','Arrangement. [Mus]',0,0
+'830','p','Tittel for del av verk.',0,0
+'830','q','Forklarende tilføyelse.',0,0
+'830','r','Toneart. [Mus]',0,0
+'830','s','Versjon.(25.18A11)',0,0
+'830','v','Bind, nummer etc.',0,0
+'830','w','Sorteringsdelfelt for delfelt $a.',0,0
+'830','x','ISSN ',0,0
+'850','a','Eiende bibliotek/avdeling',0,0
+'850','b','Filial-, avdelings- eller samlingskode.',0,0
+'850','c','Hyllesignatur',0,0
+'850','d','Utgivelsesår, copyrightår eller trykkeår (monografier).',0,0
+'850','e','Antall eksemplarer.',0,0
+'850','i','Første bind (volum/nummer) i biblioteket (periodika).',0,0
+'850','j','Parallell bindnummerering til første bind (periodika).',0,0
+'850','k','Første år i biblioteket (periodika).',0,0
+'850','l','Siste bind (volum/nummer) i biblioteket (periodika).',0,0
+'850','m','Parallell bindnummerering til siste bind (periodika).',0,0
+'850','n','Siste år i biblioteket (periodika).',0,0
+'850','o','Note om begrenset oppbevaring.',0,0
+'850','p','Angivelse av ufullstendighet (periodika).',0,0
+'850','s','Status for beholdningsoppgaven.',0,0
+'850','z','Lokal note.',0,0
+'856','a','Vertsmaskinadresse. (R)',1,0
+'856','b','Tilgangsnummer for vertsmaskin.',0,0
+'856','c','Komprimering.(R)',1,0
+'856','d','Filkatalog.(R)',1,0
+'856','f','Filnavn.(R)',1,0
+'856','g','URN (Uniform Resource Name).(R)',1,0
+'856','k','Passord.',0,0
+'856','l','Innloggingsuttrykk.',0,0
+'856','p','Portnummer.',0,0
+'856','q','Elektronisk format.',0,0
+'856','r','Kommunikasjonsoppsett.',0,0
+'856','s','Filstørrelse. (R)',1,0
+'856','t','Terminalemulering.(R)',1,0
+'856','u','URL (Uniform Resource Locator).(R)',1,0
+'856','z','Note. (R)',1,0
+'856','2','Tilgangsmetode.',0,0
+'856','3','Dokumentspesifikasjon',0,0
+'900','a','Navn, henvisning fra',0,0
+'900','b','Nummer.',0,0
+'900','c','Andre tilføyelser.',0,0
+'900','d','Årstall forbundet med navn.',0,0
+'900','g','Diverse.',0,0
+'900','j','Nasjonalitet.',0,0
+'900','q','Mer fullstendig navneform.',0,0
+'900','t','Tittel',0,0
+'900','u','Sorteringsdelfelt for delfelt $t.',0,0
+'900','w','Sorteringsdelfelt for delfelt $a.',0,0
+'900','x','Underavdeling til emneord.(R)',1,0
+'900','z','Navn, henvisning til.',0,0
+'900','0','Kvalifikator til emneord.(R)',1,0
+'900','8','Andre karakteristika forbundet med navn.(R)',1,0
+'910','a','Navn, henvisning fra',0,0
+'910','b','Underavdeling.',0,0
+'910','c','Sted.',0,0
+'910','d','Dato.',0,0
+'910','g','Diverse.',0,0
+'910','n','Nummer for konferanse, utstilling etc.',0,0
+'910','q','Forklarende tilføyelse.',0,0
+'910','t','Tittel.',0,0
+'910','u','Sorteringsdelfelt for delfelt $t.',0,0
+'910','w','Sorteringsdelfelt for delfelt $a.',0,0
+'910','x','Underavdeling til emneord.(R)',1,0
+'910','z','Navn, henvisning til.',0,0
+'910','0','Kvalifikator til emneord.(R)',1,0
+'911','a','Navn, henvisning fra.',0,0
+'911','c','Sted.',0,0
+'911','d','Dato.',0,0
+'911','g','Diverse.',0,0
+'911','n','Nummer for konferanse, møte, utstilling etc.',0,0
+'911','q','Forklarende tilføyelse.',0,0
+'911','t','Tittel.',0,0
+'911','u','Sorteringsdelfelt for delfelt $t.',0,0
+'911','w','Sorteringsdelfelt for delfelt $a.',0,0
+'911','x','Underavdeling til emneord.',0,0
+'911','z','Navn, henvisning til.',0,0
+'911','0','Kvalifikator til emneord.',0,0
+'930','a','Standardtittel, henvisning fra.',0,0
+'930','b','Underordnet enhet.',0,0
+'930','d','Årstall.',0,0
+'930','f','Utgivelsesåret for verket som katalogiseres.',0,0
+'930','g','Diverse.',0,0
+'930','i','Serienummer, opusnummer, nummer fra verkfortegnelse. [Mus]',0,0
+'930','k','Form.',0,0
+'930','l','Språk.',0,0
+'930','m','Besetning. [Mus]',0,0
+'930','n','Nummer for del av verk.',0,0
+'930','o','Arrangement. [Mus]',0,0
+'930','p','Tittel for del av verk.',0,0
+'930','q','Forklarende tilføyelse. ',0,0
+'930','r','Toneart. [Mus]',0,0
+'930','s','Versjon.',0,0
+'930','w','Sorteringsdelfelt for delfelt $a.',0,0
+'930','x','Underavdeling til emneord. (R)',0,0
+'930','z','Standardtittel, henvisning til.',0,0
+'930','0','Kvalifikator til emneord.(R)',1,0
+'940','a','Tittel, henvisning fra.',0,0
+'940','g','Diverse.',0,0
+'940','n','Nummer for del av verk.',0,0
+'940','p','Tittel for del av verk.',0,0
+'940','w','Sorteringsdelfelt for delfelt $a.',0,0
+'940','x','Underavdeling til emneord. (R)',1,0
+'940','z','Tittel, henvisning til.',0,0
+'940','0','Kvalifikator til emneord.(R)',1,0
+'950','a','Navn eller ord, henvisning fra.',0,0
+'950','g','Diverse.',0,0
+'950','q','Forklarende tilføyelser til delfelt $a.',0,0
+'950','w','Sorteringsdelfelt for delfelt $a.',0,0
+'950','x','Underavdeling til emneord. (R)',1,0
+'950','z','Navn eller ord, henvisning til.',0,0
+'950','0','Kvalifikator til emneord.(R)',1,0

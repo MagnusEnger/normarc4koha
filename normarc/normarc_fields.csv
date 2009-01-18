@@ -1,0 +1,135 @@
+'tagfield','name','repeatable','mandatory'
+'000','Postens hode',0,0
+'001','Identifikasjonsnummer',0,0
+'006','Tilleggsinformasjon for materialtyper (R)',1,0
+'007','Fysisk beskrivelse av dokumentet (R)',1,0
+'008','Informasjonskoder',0,0
+'009','Lokale koder',0,0
+'010','Nasjonalbibliografisk kontrollnummer',0,0
+'015','Andre bibliografiske kontrollnummer (R)',1,0
+'019','Utvidet informasjonskodefelt',0,0
+'020','Internasjonalt standard boknummer (ISBN)',0,0
+'022','Internasjonalt standard periodikanummer (ISSN) (R) [Per]',1,0
+'024','Andre standardnumre',0,0
+'025','Europeisk artikkelnummer (EAN)',0,0
+'027','Standard teknisk rapportnummer (STRN)',0,0
+'028','Utgivernummer/Edisjonsnummer (R) [Mus]',1,0
+'030','CODEN [Per]',0,0
+'033','Dato og sted for en hendelse (R)',1,0
+'040','Katalogiseringskilde',0,0
+'041','Språkkoder',0,0
+'043','Geografisk kode',0,0
+'044','Kode for produsentland [F/V, Mus]',0,0
+'045','Kronologi [Mus]',0,0
+'050','LC klassifikasjonsnummer (Feltet er reservert for senere bruk.)',0,0
+'051','LC eksemplar/utgave/offprint (Feltet er reservert for senere bruk.)',0,0
+'052','Geografisk klassifikasjonskode (Feltet er reservert for senere bruk.)',0,0
+'055','Kanadisk klassifikasjonsnummer (Feltet er reservert for senere bruk.)',0,0
+'060','National Library of Medicine klassifikasjonsnummer (R)',1,0
+'061','National Library of Medicine "eksemplar" informasjon (Feltet er reservert for senere bruk.)',0,0
+'066','Tegnsett brukt i posten (Feltet er reservert for senere bruk.)',0,0
+'070','National Agricultural Library klassifikasjonsnummer (Feltet er reservert for senere bruk.)',0,0
+'071','National Agricultural Library "eksemplar" informasjon (Feltet er reservert for senere bruk.)',0,0
+'072','Emnekategorikode (Feltet er reservert for senere bruk.)',0,0
+'074','Offentlig trykksaknummer',0,0
+'080','Universal desimalklassifikasjon (UDK) (R)',1,0
+'082','Dewey desimalklassifikasjon (DDK) (R)',1,0
+'084','Andre klassifikasjonsnummer (R)',1,0
+'086','Klassifikasjonsnummer for offentlige publikasjoner (Feltet er reservert for senere bruk.)',0,0
+'088','Rapportnummer (Feltet er reservert for senere bruk.)',0,0
+'09X','Lokale felt',0,0
+'100','Hovedordningsord personnavn',0,0
+'110','Hovedordningsord korporasjonsnavn',0,0
+'111','Hovedordningsord konferanse-, møte-, utstillingsnavn etc.',0,0
+'130','Hovedordningsord standardtittel',0,0
+'210','Forkortet tittel [Per]',0,0
+'222','Nøkkeltittel [Per]',0,0
+'240','Standardtittel',0,0
+'245','Tittel og ansvarsopplysninger',0,0
+'246','Parallelltittel (R)',1,0
+'250','Utgave',0,0
+'254','Musikktrykkets fysiske presentasjon [Mus]',0,0
+'255','Matematiske data [Kar]',0,0
+'256','Filkarakteristika [Fil]',0,0
+'260','Utgivelse, distribusjon osv.',0,0
+'263','Beregnet publikasjonsdato',0,0
+'270','Adresse (R)',1,0
+'300','Fysisk beskrivelse',0,0
+'306','Varighet [Mus]',0,0
+'310','Periodisitet [Per]',0,0
+'350','Pris [Per]',0,0
+'362','Numeriske og/eller alfabetiske og kronologiske betegnelser [Per]',0,0
+'440','Serieangivelse med biinnførsel (R)',1,0
+'490','Serieangivelse uten biinnførsel (R)',1,0
+'500','Generell note (R)',1,0
+'501','"Sammen med"-note (R)',1,0
+'502','Avhandlinger, dissertaser og hovedoppgaver (R)',1,0
+'503','Utgave/Historikk (R)',1,0
+'505','Innholdsnote (R)',1,0
+'508','Ansvarshavende (R)',1,0
+'510','Referanser (R)',1,0
+'511','Note for utøvere / Medarbeidere [Mus, F/V] (R)',1,0
+'512','Art, ramme eller kunstnerisk form (R)',1,0
+'516','Filtype [Fil] (R)',1,0
+'520','Sammendrag (R)',1,0
+'521','Brukergruppe (R)',1,0
+'525','Bilag og supplementer (R)',1,0
+'530','Andre materialtyper (R)',1,0
+'531','Spesielle materialdetaljer (R)',1,0
+'532','Utgivelse, distribusjon, etc. (R)',1,0
+'533','Fysisk beskrivelse (R)',1,0
+'538','Systemdetaljer og filkarakteristika [Fil] (R)',1,0
+'539','Serier (R)',1,0
+'546','Språk og/eller oversettelse/bearbeidelse (R)',1,0
+'571','Nummerbetegnelser (R)',1,0
+'572','Varianter av tittel (R)',1,0
+'573','Kilde for hovedtittel (R)',1,0
+'574','Originaltittel (R)',1,0
+'59X','Lokale noter (R)',1,0
+'600','Emneinnførsel personnavn (R)',1,0
+'610','Emneinnførsel korporasjonsnavn (R)',1,0
+'611','Emneinnførsel konferanse-, møte-, utstillingsnavn etc. (R)',1,0
+'630','Emneinnførsel standardtittel (R)',1,0
+'640','Emneinnførsel tittel (R)',1,0
+'650','Generelle emneord (R)',1,0
+'651','Geografisk sted som emneord (R)',1,0
+'652','Komposisjonstype [Mus] (R)',1,0
+'653','Frie nøkkelord (R)',1,0
+'655','Genre-/form-emneord (R)',1,0
+'656','Yrkesbetegnelse som emneord (R)',1,0
+'658','Besetning [Mus] (R)',1,0
+'69X','Lokale emneinnførsler (R)',1,0
+'700','Biinnførsel personnavn (R)',1,0
+'710','Biinnførsel korporasjonsnavn (R)',1,0
+'711','Biinnførsel konferanse-, møte-, utstillingsnavn etc. (R)',1,0
+'730','Biinnførsel standardtittel (R)',1,0
+'740','Biinnførsel tittel (R)',1,0
+'752','Biinnførsel stedsnavn (hierarkisk) (R)',1,0
+'753','Biinnførsel systemkrav [Fil] (R)',1,0
+'760','Overordnet enhet (R)',1,0
+'762','Underordnet enhet (R)',1,0
+'765','Originalspråkutgave (R)',1,0
+'767','Oversatt utgave (R)',1,0
+'770','Supplement (R)',1,0
+'772','Hoveddokument (R)',1,0
+'773','Vertsdokument (R)',1,0
+'775','Andre utgaver (R)',1,0
+'776','Andre materialvarianter (R)',1,0
+'777','Utgitt sammen med (R)',1,0
+'780','Fortsettelse av (R)',1,0
+'785','Fortsettes i (R)',1,0
+'787','Ikkespesifisert relasjon (R)',1,0
+'79X','Lokale lenker (R)',1,0
+'800','Serieinnførsel personnavn (R)',1,0
+'810','Serieinnførsel korporasjonsnavn (R)',1,0
+'811','Serieinnførsel konferanse-, møte-, utstillingsnavn etc. (R)',1,0
+'830','Serieinnførsel standardtittel (R)',1,0
+'850','Eiende institusjon og beholdningsinformasjon (R)',1,0
+'856','Elektronisk lokalisering og tilgang (R)',1,0
+'900','Henvisning fra personnavn (R)',1,0
+'910','Henvisning fra korporasjonsnavn (R)',1,0
+'911','Henvisning fra konferanse-, møte-, utstillingsnavn etc. (R)',1,0
+'930','Henvisning fra standardtittel (R)',1,0
+'940','Henvisning fra tittel (R)',1,0
+'950','Andre henvisninger (R)',1,0
+'99X','Lokale henvisninger (R)',1,0
