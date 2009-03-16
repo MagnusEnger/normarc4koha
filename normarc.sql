@@ -2348,3 +2348,6 @@ INSERT INTO `auth_subfield_structure` (`authtypecode`, `tagfield`, `tagsubfield`
 ('', '950', 'x', 'Underavdeling til emneord. (R)', 'Underavdeling til emneord. (R)', 1, 0, 0, 9, 0, '', 0, 0, '', '', 0),
 ('', '950', 'z', 'Navn eller ord, henvisning til.', 'Navn eller ord, henvisning til.', 0, 0, 0, 9, 0, '', 0, 0, '', '', 0),
 ('', '950', '0', 'Kvalifikator til emneord.(R)', 'Kvalifikator til emneord.(R)', 1, 0, 0, 9, 0, '', 0, 0, '', '', 0);
+
+-- Fix: 
+update marc_subfield_structure set authorised_value = '' WHERE authorised_value !='' AND (kohafield like 'biblio%' OR  kohafield like '');
